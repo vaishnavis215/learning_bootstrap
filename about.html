@@ -8,13 +8,13 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
   <style>
-    body {
-      background-color: rgb(5, 209, 250);
+    body{
+      background-color: rgba(6, 50, 77, 0.479);
     }
 
     h1 {
       color: white;
-      text-shadow: 4px 4px 4px rgb(10, 10, 247);
+      text-shadow: 4px 4px 4px rgba(136, 10, 247, 0);
     }
 
     h1:hover {
@@ -29,21 +29,24 @@
 
     h2 {
       color: white;
-      text-shadow: 3px 3px 3px rgb(18, 18, 206);
+      text-shadow: 3px 3px 3px rgba(74, 154, 194, 0.222);
+    }
+    h2:hover{
+         transform: translateX(30px);
     }
 
     #head {
-      box-shadow: 6px 3px 5px rgb(248, 248, 250);
+      box-shadow: 6px 3px 5px rgba(248, 249, 250, 0.245);
     }
 
     #WHY {
-      box-shadow: 6px 3px 5px rgb(244, 244, 246);
-
+      box-shadow: 6px 3px 5px rgba(244, 244, 246, 0.305);
+    
 
     }
 
     #img {
-      box-shadow: 5px 3px 5px rgb(245, 245, 246);
+      box-shadow: 5px 3px 5px rgba(245, 245, 246, 0.374);
       margin: 6px;
       padding: 0px;
       margin-bottom: 8px;
@@ -58,8 +61,8 @@
   </style>
 </head>
 
-<body>
-  <nav class="navbar nav-pills nav-tabs navbar-expand-lg bg-primary" data-bs-theme="dark">
+<body bg-secondary>
+  <nav class="navbar nav-pills nav-tabs navbar-expand-lg bg-secondary" data-bs-theme="dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#" h1>
         <img src="image/images (6).jpeg" alt="" height="50px" width="70px">
@@ -78,6 +81,9 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="service.html">Services</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -102,26 +108,26 @@
   </nav>
   <main>
     <section>
-      <div id="banner" class="container-fluid border rounded-4 border-primary" data-bs-theme="dark">
+      <div id="banner" class="container-fluid border rounded-4 border-secondary" data-bs-theme="dark">
         <div class="row">
           <img id="img" src="image/architecture-8974490_1280.jpg" alt="" height="450" width="15" />
         </div>
         <div class="row">
           <div id="head"
-            class="col-md-4 rounded-end-circle border-5 border border-primary border-end-circle text-left bg-primary"
+            class="col-md-4 border-5 border border-secondary border-end-circle text-left bg-secondary"
             data-bs-theme="dark">
             <h1>Mission</h1>
             <p>To deliver the state of-the-art turnkey projects in PEB structures, Civil Designs, and MEP Installaton to
               <br> ensure world-class establishment across sectors and <br> strive to carve a niche for our work ethics
               and values..</p>
           </div>
-          <div id="WHY" class="col-md-4 border border-primary border-3" data-bs-theme="dark">
+          <div id="WHY" class="col-md-4 border border-secondary border-3" data-bs-theme="dark">
             <h2>WHY US</h2>
             <p>"Welcome, SURYA CONSRTUCTION where luxury, comfort and efficiency go hand in hand.
               <br> SURYA CONSRTUCTION, one of the top property builder in Ausa..."
             </p>
           </div>
-          <div id="head" class="col-md-4 rounded-start-circle border-5 border border-primary text-center bg-primary"
+          <div id="head" class="col-md-4 border-5 border border-secondary text-left bg-secondary"
             data-bs-theme="dark">
             <h1 class="heading">Vission</h1>
             <p class="para">To create the perfect amalgamation of skilled workforces, <br>latest technologies, and
@@ -134,19 +140,69 @@
     </section>
 
   </main>
-  <header>
-    <section>
-      <div class="row bg-body-tertiary">
-        <div class="col-md-6">
-          <h2>contact us</h2>
-          <h4>Address:shiwaji nagar Ausa, <br>
-          </h4>
-        </div>
+  <footer>
+          <div class="container pt-5 bg-secondary">
+      <div class="row">
+        <div class="col-md-4 border-3 border-primary ">
+          <img src="image/images (6).jpeg" class="img" alt="" height="100px" width="150px">
+          <h1>SURYA CONSRTUCTION</h1>
 
+        </div>
+        <div class="col-md-4 border-3">
+          <h1>Contact us</h1>
+          <h5>4<sub>th</sub> floor sambhaji chauk,shiwaji nagar,<br>near ajintha theater,
+            <br> Ausa-421758 <br>
+            phone no.-7059363248
+            ,-9863254158
+            <br>Email-suryacons@gmail.com
+          </h5>
+        </div> 
+            <div class="col-md-4"><h3>ENQUIRY</h3> <br>
+              <label for="inputEmail4" class="form-label"></label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            
+              <label for="inputtext" class="form-label"></label>
+              <input type="text" class="form-control" id="inputtext" placeholder="Name">
+            
+            
+              <label for="inputAddress" class="form-label"></label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="Address">
+            
+            <!-- <div class="col-12">
+              <label for="inputAddress2" class="form-label">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div> -->
+            
+              <label for="inputCity" class="form-label"></label>
+              <input type="text" class="form-control" placeholder="City" id="inputCity">
+            
+            
+              <!-- <label for="inputState" class="form-label">State</label>
+              <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select> -->
+          
+            <!-- <div class="col-md-2">
+              <label for="inputZip" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div> -->
+            <!-- <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out -->
+                </label><br>
+              <button type="button" class="btn btn-primary">Submit</button>
+            </div></div>
+          </form>
+        </div>
       </div>
-      </div>
-    </section>
-  </header>
+    </div>
+     
+      
+    </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
